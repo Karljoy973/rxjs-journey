@@ -52,31 +52,31 @@
     Communication entre composants
     File system simulé avec observables
 
+## Projet Bonus
 
+### Projet Final 
 
-## Projet 11 : Visualiseur 3D Collaboratif en Temps Réel
-
-### Concept
+#### Concept
 Un environnement 3D partagé où plusieurs utilisateurs peuvent manipuler des objets 3D simultanément, avec synchronisation en temps réel.
 
-### Stack Technique
+#### Stack Technique
 - **Frontend** : RxJS + Three.js + HTML/CSS
 - **Backend** : Express.js + WebSockets (Socket.io)
 - **Base de données** : MongoDB (pour flexibilité des objets 3D) ou MySQL (pour structure relationnelle)
 
-### Fonctionnalités RxJS + Three.js
+#### Fonctionnalités RxJS + Three.js
 - **Contrôles 3D réactifs** : fromEvent sur mouse/keyboard → Three.js camera/objects
 - **Animations fluides** : animationFrameScheduler pour render loop
 - **Physics simulation** : interval + scan pour gravity/collision
 - **Multi-user sync** : WebSocket observable + merge des actions utilisateurs
 
-### Fonctionnalités Avancées
+#### Fonctionnalités Avancées
 - Drag & drop 3D avec raycasting
 - Chat 3D avec bulles flottantes
 - Sauvegarde/chargement de scènes
 - Système de permissions (qui peut modifier quoi)
 
-### Défis RxJS
+#### Défis RxJS
 - Gestion d'état complexe multi-utilisateurs
 - Synchronisation réseau avec retry/reconnection
 - Performance avec throttle sur les mouvements 3D
