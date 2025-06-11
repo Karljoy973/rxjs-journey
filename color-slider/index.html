@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="colored-div" id="colored-div"></div>
+      <input
+        type="range"
+        name="color-slider"
+        id="color-slider"
+        min="0"
+        max="90"
+        step="1"
+      />
+      <label for="color-slider">Teinte</label>
+
+      <input
+        type="range"
+        name="saturation-slider"
+        id="saturation-slider"
+        min="0"
+        max="100"
+        step="10"
+        value="50"
+      />
+      <label for="saturation-slider">Saturation</label>
+
+      <input
+        type="range"
+        name="luminosite-slider"
+        id="luminosite-slider"
+        min="0"
+        max="100"
+        step="1"
+        value="20"
+      />
+      <label for="luminosite-slider">luminosité</label>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
