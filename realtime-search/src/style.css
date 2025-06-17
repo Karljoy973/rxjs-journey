@@ -101,7 +101,7 @@ button:focus-visible {
   border-style: groove;
 
   width: 500px;
-  margin: 10px 5px; 
+  margin: 10px 5px;
   padding: 10px 5px;
 
   display: flex;
@@ -120,7 +120,7 @@ button:focus-visible {
 
 .wrapper {
   & input {
-    width: 400px; 
+    width: 400px;
     height: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10px;
@@ -128,8 +128,7 @@ button:focus-visible {
     border-radius: 5px;
   }
   & ::placeholder {
-    color :#5e618b;
+    color: #5e618b;
     font-style: italic;
   }
-  
 }
